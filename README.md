@@ -1,16 +1,18 @@
 # java
 To study java
 
-05-3. Call by Value
+# 05-3. Call by Value
+
 class 이름이 파일명과 동일할 경우, public으로 선언할 것.
 
 <Counter.java>
+
 class Update {
 }
 public class Counter { 
 }
 
-05-4. 상속
+# 05-4. 상속
 
 자식클래스 extends 부모클래스
 부모클래스 A = new 자식클래스();
