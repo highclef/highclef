@@ -1,2 +1,2 @@
 # java
-For studying java
+To study java
