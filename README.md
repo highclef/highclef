@@ -1,6 +1,3 @@
-# java
-To study java
-
 # 05-3. Call by Value
 
 class 이름이 파일명과 동일할 경우, public으로 선언할 것.
