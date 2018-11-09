@@ -1,6 +1,6 @@
 package jump2java;
 
-public class Test {
+public class TestStringBuffer {
 	public static void main(String[] args) {
 		// append method
         StringBuffer sb = new StringBuffer();
