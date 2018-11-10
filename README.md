@@ -1,6 +1,6 @@
 # 05-3. Call by Value
 
-class 이름이 파일명과 동일할 경우, public으로 선언할 것.
+#### class 이름이 파일명과 동일할 경우, public으로 선언할 것.
 
 <Counter.java>
 ```
@@ -11,10 +11,12 @@ public class Counter {
 ```
 # 05-4. 상속
 
-자식클래스 extends 부모클래스
-부모클래스 A = new 자식클래스();
-Object B = new 클래스이름(); // 자바에서 만드는 모든 객체는 object형으로 사용할 수 있다.
-
+#### 자식클래스 extends 부모클래스
+#### 부모클래스 A = new 자식클래스();
+#### 자바에서 만드는 모든 객체는 object형으로 사용할 수 있다.
+```
+Object B = new 클래스이름();
+```
 자바는 다중 상속을 지원하지 않는다.
 
 Method overloading
