@@ -1,3 +1,4 @@
+package house;
 public class Animal {
 	String name;
 	
