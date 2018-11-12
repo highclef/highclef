@@ -1,6 +1,6 @@
 package house;
 
-public class Tiger extends Animal implements BarkablePredator {
+public class Tiger extends Predator implements Barkable {
 	public String getFood() {
         return "apple";
     }
