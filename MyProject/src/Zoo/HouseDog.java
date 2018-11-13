@@ -1,4 +1,4 @@
-package house;
+package Zoo;
 
 public class HouseDog extends Dog {
 	  public HouseDog(String name) { // 생성자 (Constructor): method 명 = class 명, 리턴값 없음

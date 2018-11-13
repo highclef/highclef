@@ -1,4 +1,4 @@
-package house;
+package Zoo;
 
 public class Bouncer {
 	public void barkAnimal(Barkable animal) {

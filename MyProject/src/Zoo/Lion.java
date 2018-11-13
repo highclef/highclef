@@ -1,4 +1,4 @@
-package house;
+package Zoo;
 
 public class Lion extends Predator implements Barkable {
 	public String getFood() {

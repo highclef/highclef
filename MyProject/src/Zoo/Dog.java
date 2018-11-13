@@ -1,4 +1,4 @@
-package house;
+package Zoo;
 
 public class Dog extends Animal {
 	public Dog() {	// Default »ý¼ºÀÚ
