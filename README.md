@@ -43,3 +43,56 @@ public class HouseDog extends Dog {
   }
 }
 ```
+# 06-1. 콘솔 입출력
+
+## InputStream
+#### 바이트 단위로 데이터를 입력받아 출력한다.
+```
+import java.io.InputStream;
+
+public class StreamTest {
+  public static void main(String[] args) throws Exception {
+    InputStream in = System.in;
+    byte[] a = new byte[3];
+    in.read(a);
+
+    for (int i=0;i<a.length;i++) {
+      System.out.println(a[i]);
+    }
+  }
+}
+```
+## InputStreamReader
+#### 문자를 입력받아 출력한다.
+```
+import java.io.InputStreamReader;
+
+public class StreamTest {
+	public static void main(String[] args) throws Exception {
+    InputStream in = System.in;
+    InputStreamReader reader = new InputStreamReader(in);
+    char[] a = new char[3];
+    reader.read(a);
+
+    System.out.println(a);
+  }
+}
+```
+## BufferedReader
+#### 문자열을 입력받아 출력한다.
+```
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
+
+public class StreamTest {
+	public static void main(String[] args) throws Exception {
+    InputStream in = System.in;
+    InputStreamReader reader = new InputStreamReader(in);
+    BufferedReader br = new BufferedReader(reader);
+    // BufferedReader는 객체 생성시 생성자의 입력값으로 InputStreamReader의 객체가 필요하다.
+
+    String a = br.readLine();
+    System.out.println(a);
+  }
+}
+```
