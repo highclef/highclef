@@ -18,7 +18,6 @@ public class Counter {
 ```
 Object B = new 클래스이름();
 ```
-#### 자바는 다중 상속을 지원하지 않는다.
 
 ## Method overloading
 #### 메소드의 입력 파라미터가 다를 경우 가능.
