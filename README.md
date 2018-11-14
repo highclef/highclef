@@ -18,9 +18,7 @@ public class Counter {
 ```
 Object B = new 클래스이름();
 ```
-
-## Method overloading
-#### 메소드의 입력 파라미터가 다를 경우 가능.
+#### Method overloading: 메소드의 입력 파라미터가 다를 경우 가능.
 ```
 public void sleep() {
 }
