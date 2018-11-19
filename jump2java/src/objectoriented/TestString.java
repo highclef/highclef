@@ -1,4 +1,4 @@
-package jump2java;
+package objectoriented;
 
 public class TestString {
 	public static void main(String[] args) {

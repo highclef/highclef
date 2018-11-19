@@ -1,4 +1,4 @@
-package jump2java;
+package objectoriented;
 
 public class Pushprint {
 	public static void main(String[] args) {

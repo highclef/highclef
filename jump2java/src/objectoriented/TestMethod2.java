@@ -1,4 +1,4 @@
-package jump2java;
+package objectoriented;
 
 public class TestMethod2 {
 	int a;  // °´Ã¼º¯¼ö a

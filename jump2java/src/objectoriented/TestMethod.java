@@ -1,4 +1,4 @@
-package jump2java;
+package objectoriented;
 
 public class TestMethod {
 	public int sum(int a, int b) {
