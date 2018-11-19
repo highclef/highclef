@@ -1,4 +1,4 @@
-package test;
+package staticTest;
 
 class Singleton {
     private static Singleton one;
