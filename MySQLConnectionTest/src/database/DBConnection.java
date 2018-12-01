@@ -14,7 +14,7 @@ public class DBConnection {
 	public DBConnection() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kEssen?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "answldud93");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kEssen?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "1234");
 			st = con.createStatement();
 			System.out.println("Connection Successful");
 		}
