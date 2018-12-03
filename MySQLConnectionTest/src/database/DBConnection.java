@@ -6,6 +6,12 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class DBConnection {
+	static private final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
+	static private final String DB_URL = "jdbc:mysql://localhost:3306/kEssen";
+	static private final String SERVERTIMEZONE = "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+
+	static private final String USERNAME = "root";
+	static private final String PASSWORD = "1234";
 	
 	private Connection con;
 	private Statement st;
@@ -13,8 +19,8 @@ public class DBConnection {
 	
 	public DBConnection() {
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kEssen?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "1234");
+			Class.forName(JDBC_DRIVER);
+			con = DriverManager.getConnection(DB_URL + SERVERTIMEZONE, USERNAME, PASSWORD);
 			st = con.createStatement();
 			System.out.println("Connection Successful");
 		}
