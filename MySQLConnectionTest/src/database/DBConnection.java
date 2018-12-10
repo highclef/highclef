@@ -7,15 +7,15 @@ import java.sql.Statement;
 
 public class DBConnection {
 	static private final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
-	static private final String DB_URL = "jdbc:mysql://localhost:3306/kEssen";
+	static private final String DB_URL = "jdbc:mysql://35.241.181.46/kessen";
 	static private final String SERVERTIMEZONE = "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
-	static private final String USERNAME = "root";
-	static private final String PASSWORD = "1234";
+	static private final String USERNAME = "test";
+	static private final String PASSWORD = "ehrdlftmxjel";
 	
 	private Connection con;
-	private Statement st;
-	private ResultSet rs;
+	protected Statement st;
+	protected ResultSet rs;
 	
 	public DBConnection() {
 		try {
@@ -27,18 +27,5 @@ public class DBConnection {
 		catch(Exception e) {
 			System.out.println("Database Connection Error: " + e.getMessage());
 		}
-	}
-	public boolean isName(String name) {
-		try {
-			String SQL = "SELECT * FROM CUSTOMERINFO WHERE NAME = '" + name + "'";
-			rs = st.executeQuery(SQL);
-				if(rs.next()) {
-					return true;
-				}
-			}
-		catch(Exception e) {
-			System.out.println("Database Search Error: " + e.getMessage());
-		}
-		return false;
 	}
 }
