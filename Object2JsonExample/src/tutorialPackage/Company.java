@@ -1,4 +1,4 @@
-package tutorial;
+package tutorialPackage;
 
 import java.util.ArrayList;
 
