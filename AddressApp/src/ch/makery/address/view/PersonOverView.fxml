@@ -61,9 +61,9 @@
                   </GridPane>
                   <ButtonBar layoutX="204.0" layoutY="244.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="30.0" prefWidth="234.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0">
                     <buttons>
-                      <Button minWidth="53.0" mnemonicParsing="false" prefHeight="23.0" text="New..." />
-                        <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="57.0" mnemonicParsing="false" prefHeight="22.0" text="Edit..." />
-                        <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="57.0" mnemonicParsing="false" prefHeight="22.0" text="Delete" />
+                      <Button mnemonicParsing="false" text="New..." />
+                        <Button mnemonicParsing="false" text="Edit..." />
+                        <Button mnemonicParsing="false" text="Delete" />
                     </buttons>
                   </ButtonBar>
                </children>
