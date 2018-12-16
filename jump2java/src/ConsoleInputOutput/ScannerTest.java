@@ -1,4 +1,4 @@
-package Console;
+package ConsoleInputOutput;
 import java.util.Scanner;
 
 public class ScannerTest {
